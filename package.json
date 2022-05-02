@@ -1,8 +1,23 @@
 {
+  "name": "game-club",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gauthierfweb58/GAME-CLUB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gauthierfweb58/GAME-CLUB/issues"
+  },
+  "homepage": "https://github.com/Gauthierfweb58/GAME-CLUB#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "postcss": "^8.4.13",
-    "stylelint-config-recommended": "^7.0.0",
     "tailwindcss": "^3.0.24"
   }
 }
