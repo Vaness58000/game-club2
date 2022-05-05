@@ -1,37 +1,119 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style1.css">
-    <link rel="shortcut icon" href="img/logo.png" />
+
     <title>GAME CLUB</title>
 </head>
 <body>
-  <nav>
-    <div class="header"></div>
+  <header>
+   <div class="header"></div>
   <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
   <label for="openSidebarMenu" class="sidebarIconToggle">
     <div class="spinner diagonal part-1"></div>
     <div class="spinner horizontal"></div>
     <div class="spinner diagonal part-2"></div>
   </label>
-  <div id="sidebarMenu">
+<div id="sidebarMenu">
+    <nav>
     <ul class="sidebarMenuInner">
-      <li><span>CATEGORIES</span></li><br>
+      <li><span>CATEGORIES</span></li>
       <li><a href="#" target="_blank">XBOX ONE|XBOX SERIES S|X</a></li>
       <li><a href="#" target="_blank">PLAYSTATION 4|5</a></li>
       <li><a href="#" target="_blank">SWITCH</a></li>
       <li><a href="#" target="_blank">PC</a></li>
+      <li><a href="#" target="_blank">ENFANTS</a></li>
+      <li><a href="#" target="_blank">ADULTES</a></li>
     </ul>
+    </nav>
+    <!--<nav>
+        <ul>
+          <li class="deroulant"><a href="#">PLATEFORMES JEUX &ensp;</a>
+            <ul class="sous">
+              <li><a href="#">XBOX ONE|XBOX SERIES S|X</a></li>
+              <li><a href="#">PLAYSTATION 4|5</a></li>
+              <li><a href="#">SWITCH</a></li>
+              <li><a href="#">PC</a></li>
+            </ul>
+          </li>
+          <li class="deroulant"><a href="#">CATEGORIE &ensp;</a>
+            <ul class="sous">
+              <li><a href="#">ENFANTS</a></li>
+              <li><a href="#">ADULTES</a></li>
+              <li><a href="#">CSS float</a></li>
+            </ul>
+          </li>
+          <li><a href="#">JEUX ANCIENS</a></li>
+          <li><a href="#">SE CONNECTER</a></li>
+          <li><a href="#">CREER UN COMPTE</a></li>
+        </ul>
+      </nav>
+  </div>-->
+</header>
+<main>
+  <div id='center' class="main center">
+    <div class="mainInner">
+      <div><h3>NOUVEAUTES</h3>
+      </div>
+    </div>
+    <div class="grid2">
+        <div class="item item-1">
+            <img src="img/pokemon.jpg" alt="">
+        </div>
+        <div class="item item-2">
+            <img src="img/call of.jfif" alt="">
+        </div>
+        <div class="item item-3">
+            <img src="img/jeux-video-pour-enfants.jpg" alt="">
+        </div>
+        <div class="item item-4">
+            <img src="img/Peppa pig.jpg" alt="">
+        </div>
+        <div class="item item-5">
+            <img src="img/pat'patrouille.jfif" alt="">
+        </div>
+        <div class="item item-6">
+            <img src="img/starcraft.jfif" alt="">
+        </div>
+        <div class="item item-7">
+            <img src="img/super mario.jpg" alt="">
+        </div>
+        <div class="item item-8">
+            <img src="img/fortnite.jfif" alt="">
+        </div>
+    </div>
+    </div>
+    <div class="mainInner">
+      <div>PURE CSS SIDEBAR TOGGLE MENU</div>
+    </div>
   </div>
-  
-</nav>
-
- 
-
- 
+</main>
+  <footer>
+    <div class="grid">
+      <form id="form1" action="#"method="#">
+        <div id="recherches">
+         <label for="choix">Quel jeu?</label>
+         <input type="text" id="choix" name="choix" placeholder="entrez votre jeu" required>
+         <input type="submit" value="Rechercher">
+        </div>
+      </form>
+    <div id="pratique">
+    <a href="#">Retrogaming</a>
+    <a href="https://www.gamekult.com/">Nos partenaires</a>
+    <a href="https://www.gamekult.com/lexique.html">Lexique</a>
+    </div>
+    <!--<div id="paiements">
+    <img src="img/moyens de paiement.png" alt="moyens de paiement" title="paiements">-->
     
+    </div>
+  </div>
+    <div>
+      <i class="fa-brands fa-twitter"></i>
+    </div>
+    <p>Copyrigth droits réservés 2022</p>
+    </footer>
 </body>
 </html>
