@@ -14,8 +14,6 @@ body {
   color: #202020;
   text-transform: uppercase;
   letter-spacing: -2px;
-  background-image: url("img/Xbox-Logo.jpg");
-  background-size: cover 2%;
 }
 .switch{
   margin: 20px;
@@ -42,6 +40,43 @@ body {
   text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
   letter-spacing: -4px;
 
+}
+.playstation{
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 70px;
+  line-height: 80px;
+  color: #202020;
+  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+  letter-spacing: -4px;
+
+}
+.playstation span{
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 70px;
+  line-height: 80px;
+  color: #0b109c;
+  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+  letter-spacing: -4px;
+}
+.pc {
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 70px;
+  line-height: 80px;
+  color: #202020;
+  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+  letter-spacing: -4px;
+}
+.pc span{
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 70px;
+  line-height: 80px;
+  color: #4b4b4b;
+  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+  letter-spacing: -4px;
 }
 img{
   max-width: 100%;
