@@ -1,4 +1,16 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/6baf9741f4.js"></script>
+
+    <title>GAME CLUB</title>
+</head>
+<body>
+  <header>
 <div class="mobile">
    <div class="header"></div>
   <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
