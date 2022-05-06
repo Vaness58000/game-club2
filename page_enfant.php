@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style page console.css">
-    <title>Enfant</title>
+    <link rel="stylesheet" href="style_page_console.css">
+    <link rel="stylesheet" href="header_footer.css">
+    <title>Document</title>
 </head>
+<?php
+include 'header.php'
+?>
 <body>
     <h3 class="mini_gamer"><span>Sélection du moment <br>mini-gamer</span></h3>
     <div class="grid2">
@@ -104,7 +108,9 @@
           </div>
         </div>
     </div>
-
+<?php
+include 'footer.php';
+?>
 
 </body>
 </html>

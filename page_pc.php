@@ -8,55 +8,56 @@
     <title>Document</title>
 </head>
 <body>
-<h3 class="playstation"><span>PLAYSTATION</span></h3>
+
+<h3 class="pc"><span>PC</span></h3>
         <div class="grid">
 
             <div class="item-1">
               <a href="#">
-                  <img src="img/playstation1.png" alt="returnal">    </a>
+                  <img src="img/pc1.jpg" alt="escape_from_tarkov">    </a>
             </div>
 
             <div class="item-2">
               <a href="#">
-                  <img  src="img/playstation2.jfif" alt="uncharted">  </a>
+                  <img  src="img/pc2.jpg" alt="myth_of_empires">  </a>
             </div>
 
             <div class="item-3">
               <a href="#">
-                  <img  src="img/playstation3.jfif" alt="kena">  </a>
+                  <img  src="img/pc3.jfif" alt="starcraft2">  </a>
             </div>
 
             <div class="item-4">
               <a href="#">
-                  <img src="img/playstation4.jpg" alt="spiderman">  </a>
+                  <img src="img/pc4.jfif" alt="the_forest">  </a>
             </div>
 
             <div class="item-5">
               <a href="#">
-                  <img src="img/playstation5.jpg" alt="ractchet_clank" >   </a>
+                  <img src="img/pc5.jfif" alt="phasmophobia">    </a>
             </div>  
 
             <div class="item-6">
               <a href="#">
-                  <img src="img/playstation6.jfif" alt="oddworld_soulstorm">          
+                  <img src="img/pc6.jpg" alt="chyvalery2">          
                 </a>
             </div>
 
             <div class="item-7">
               <a href="#">
-                  <img src="img/playstation7.jpeg" alt="sifu">          
+                  <img src="img/pc7.jpg" alt="wow">          
                 </a>
             </div>
 
             <div class="item-8">
               <a href="#">
-                  <img src="img/playstation8.jfif" alt="ghostwire">          
+                  <img src="img/pc8.jfif" alt="age_of_empire4">          
                 </a>
             </div>
 
             <div class="item-9">
               <a href="#">
-                  <img src="img/playstation9.jfif" alt="horizon2">          
+                  <img src="img/pc9.jfif" alt="league_of_legends">          
                 </a>
             </div>
         </div>

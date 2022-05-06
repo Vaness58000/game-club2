@@ -1,5 +1,5 @@
 <footer>
-    <div class="grid">
+  <div class="grid_footer">
       <form id="form1" action="#"method="#">
         <div id="recherches">
          <label for="choix">GAMES</label>
@@ -16,7 +16,7 @@
       <i class="font_awesome fa-brands fa-twitter-square"></i>
       <i class="font_awesome fa-brands fa-facebook"></i>
     </div>
-    </div>
+</div>
     
     <p>Copyrigth droits réservés 2022</p>
     </footer>

@@ -19,7 +19,7 @@
 
 </header>
 <button class=" mx-5 px-5 bg-green-700 hover:bg-green-900 text-white font-bold py-2 rounded shadow-lg hover:shadow-2xl transition duration-200" type="submit">
-    <a href="index.html">Revenir à l'accueil</a>
+    <a href="index.php">Revenir à l'accueil</a>
 </button>
 <main class="bg-white-500 max-w-lg mx-auto p-8 md:p-12 my-10 rounded-lg shadow-2xl">
     <section>
@@ -51,7 +51,7 @@
 </main>
 
 <div class="max-w-lg mx-auto text-center mt-12 mb-6">
-    <p class="text-white">Déjà un compte? <a href="test-connexion2.html" class="font-bold hover:underline">Se connecter</a>.</p>
+    <p class="text-white">Déjà un compte? <a href="test_connexion2.php" class="font-bold hover:underline">Se connecter</a>.</p>
 </div>
 
 <footer class="max-w-lg mx-auto flex justify-center text-white">
