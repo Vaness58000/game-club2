@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class=effet_3d><h1>POKEMON LEGENDS ARCEUS</h1></div>
-    <div class="grid">
+    <div class="grid_4">
         
         <div class="item-1">
             <img src="img/switch1.jpg" alt="pokemon arceus">

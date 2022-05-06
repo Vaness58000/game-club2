@@ -18,7 +18,7 @@
 
 </header>
 <button class=" mx-5 px-5 bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 rounded shadow-lg hover:shadow-2xl transition duration-200" type="submit">
-    <a href="index.html">Revenir à l'accueil</a>
+    <a href="index.php">Revenir à l'accueil</a>
 </button>
 <main class="bg-white-500 max-w-lg mx-auto p-8 md:p-12 my-10 rounded-lg shadow-2xl">
     
@@ -46,7 +46,7 @@
 </main>
 
 <div class="max-w-lg mx-auto text-center mt-12 mb-6">
-    <p class="text-white">Pas de compte? <a href="formulaire d'inscription.html" class="font-bold hover:underline">S'inscrire</a>.</p>
+    <p class="text-white">Pas de compte? <a href="formulaire_inscription.php" class="font-bold hover:underline">S'inscrire</a>.</p>
 </div>
 
 <footer class="max-w-lg mx-auto flex justify-center text-white">

@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style1.css">
-    <script src="https://kit.fontawesome.com/6baf9741f4.js"></script>
 
-    <title>GAME CLUB</title>
-</head>
-<body>
   <header>
 <div class="mobile">
    <div class="header"></div>
@@ -23,14 +12,14 @@
     <nav>
     <ul class="sidebarMenuInner" >
       <li><span>CATEGORIES</span></li>
-      <li><a href="page xbox.html" target="_blank">XBOX ONE|XBOX SERIES S|X</a></li>
-      <li><a href="page playstation.html" target="_blank">PLAYSTATION 4|5</a></li>
-      <li><a href="page switch.html" target="_blank">SWITCH</a></li>
-      <li><a href="page pc.html" target="_blank">PC</a></li>
-      <li><a href="Enfant.html" target="_blank">ENFANTS</a></li>
-      <li><a href="#" target="_blank">ADULTES</a></li>
-      <li><a href="test-connexion2.html">SE CONNECTER</a></li>
-      <li><a href="formulaire d'inscription.html">CREER UN COMPTE</a></li>
+      <li><a href="page_xbox.php" target="_blank">XBOX ONE|XBOX SERIES S|X</a></li>
+      <li><a href="page_playstation.php" target="_blank">PLAYSTATION 4|5</a></li>
+      <li><a href="page_switch.php" target="_blank">SWITCH</a></li>
+      <li><a href="page_pc.php" target="_blank">PC</a></li>
+      <li><a href="page_enfant.php" target="_blank">ENFANTS</a></li>
+      <li><a href="page_adulte.php" target="_blank">ADULTES</a></li>
+      <li><a href="test_connexion2.php">SE CONNECTER</a></li>
+      <li><a href="formulaire_inscription.php">CREER UN COMPTE</a></li>
     </ul>
     </nav>
   </div>
@@ -39,22 +28,22 @@
         <ul>
           <li class="deroulant"><a href="#">PLATEFORMES JEUX &ensp;</a>
             <ul class="sous">
-              <li><a href="page xbox.html">XBOX ONE|XBOX SERIES S|X</a></li>
-              <li><a href="page playstation.html">PLAYSTATION 4|5</a></li>
-              <li><a href="page switch.html">SWITCH</a></li>
-              <li><a href="page pc.html">PC</a></li>
+              <li><a href="page_xbox.php">XBOX ONE|XBOX SERIES S|X</a></li>
+              <li><a href="page_playstation.php">PLAYSTATION 4|5</a></li>
+              <li><a href="page_switch.php">SWITCH</a></li>
+              <li><a href="page_pc.php">PC</a></li>
             </ul>
           </li>
           <li class="deroulant"><a href="#">CATEGORIE &ensp;</a>
             <ul class="sous">
-              <li><a href="Enfant.html">ENFANTS</a></li>
-              <li><a href="#">ADULTES</a></li>
+              <li><a href="page_enfant.php">ENFANTS</a></li>
+              <li><a href="page_adulte.php">ADULTES</a></li>
               <li><a href="#">CSS float</a></li>
             </ul>
           </li>
           <li><a href="#">JEUX ANCIENS</a></li>
-          <li><a href="test-connexion2.html">SE CONNECTER</a></li>
-          <li><a href="formulaire d'inscription.html">CREER UN COMPTE</a></li>
+          <li><a href="test_connexion2.php">SE CONNECTER</a></li>
+          <li><a href="formulaire_inscription.php">CREER UN COMPTE</a></li>
         </ul>
       </nav>
   </div>

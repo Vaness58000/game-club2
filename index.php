@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+
+    <script src="https://kit.fontawesome.com/6baf9741f4.js"></script>
+
+    <title>GAME CLUB</title>
+</head>
+<body>
 <?php
 include 'header.php'
 ?>
@@ -6,7 +19,7 @@ include 'header.php'
     <div class="mainInner">
       <h3 class="switch"><span>NOUVEAUTES</span></h3>
     </div>
-    <div class="grid2">
+    <div class="grid_index">
       <div class="item item-1 survol_texte">
         <a href="#">
           <img src="img/pokemon.jpg" alt=""></a>
