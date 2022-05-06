@@ -120,7 +120,7 @@ img{
   height: 100%;
   object-fit: cover;
 }
-.grid{
+.grid2{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   padding: 1rem;
@@ -132,7 +132,242 @@ img{
 .item-2, .item-3, .item-4, .item-5, .item-7, .item-8{
   grid-column: span 6;
 }
+.item-1 {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+.description {
+  opacity: 0;
+  font-size: 1.1vw;
+  font-weight:550;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #000000;
+  background-color: rgba(200, 200, 200, 0.911);
+  width: 35%;
+  height: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  text-align: center;
+}
+.pegi{
+  margin-top: 5%;
+  width: 20%;
+  height: auto;
+}
+.item-1 .description:hover {
+  opacity: 1;
+}
+.text{
+  margin-top: 20%;
+}
+.item-1 .description .text .pegi {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+.item-1 .description:hover .text .pegi {
+  opacity: 1;
+  transform: translateY(250px);
+  -webkit-transform: translateY(250px);
+}
+.item-2 {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
 
+.item-2 .description:hover {
+  opacity: 1;
+}
+.item-2 .description .text .pegi {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+.item-2 .description:hover .text .pegi {
+  opacity: 1;
+  transform: translateY(250px);
+  -webkit-transform: translateY(250px);
+}
+.item-3 {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+.item-3 .description:hover {
+  opacity: 1;
+}
+
+.item-3 .description .text .pegi {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+.item-3 .description:hover .text .pegi {
+  opacity: 1;
+  transform: translateY(250px);
+  -webkit-transform: translateY(250px);
+}
+.item-4 {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+.item-4 .description:hover {
+  opacity: 1;
+}
+
+.item-4 .description .text .pegi {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+.item-4 .description:hover .text .pegi {
+  opacity: 1;
+  transform: translateY(250px);
+  -webkit-transform: translateY(250px);
+}
+.item-5 {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+.item-5 .description:hover {
+  opacity: 1;
+}
+
+.item-5 .description .text .pegi {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+.item-5 .description:hover .text .pegi {
+  opacity: 1;
+  transform: translateY(250px);
+  -webkit-transform: translateY(250px);
+}
+.item-6 {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+.item-6 .description:hover {
+  opacity: 1;
+}
+
+.item-6 .description .text .pegi {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+.item-6 .description:hover .text .pegi {
+  opacity: 1;
+  transform: translateY(250px);
+  -webkit-transform: translateY(250px);
+}
+.item-7 {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+.item-7 .description:hover {
+  opacity: 1;
+}
+
+.item-7 .description .text .pegi {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+.item-7 .description:hover .text .pegi {
+  opacity: 1;
+  transform: translateY(250px);
+  -webkit-transform: translateY(250px);
+}
+.item-8 {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+.item-8 .description:hover {
+  opacity: 1;
+}
+
+.item-8 .description .text .pegi {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+.item-8 .description:hover .text .pegi {
+  opacity: 1;
+  transform: translateY(250px);
+  -webkit-transform: translateY(250px);
+}
+.item-9 {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+.item-9 .description:hover {
+  opacity: 1;
+}
+
+.item-9 .description .text .pegi {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+.item-9 .description:hover .text .pegi {
+  opacity: 1;
+  transform: translateY(250px);
+  -webkit-transform: translateY(250px);
+}
 @media screen and (min-width: 1024px){
   img{
     max-width: 100%;
@@ -156,4 +391,15 @@ img{
  .item-9{
    grid-column: span 6;
  }
+}
+@media screen and (max-width: 768px){
+  .text{
+    display: none;
+  }
+  .description{
+    display: none;
+  }
+  .pegi{
+    display:none;
+  }
 }
