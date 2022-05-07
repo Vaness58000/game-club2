@@ -38,25 +38,25 @@ img{
     height: 100%;
     object-fit: cover;
   }
-  .grid{
+  .grid4{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     padding: 0.4rem;
     grid-gap: 0.4rem;
   }
-  .item-1{
+  .item-pokemon1{
     grid-column: 1 / -1;
   }
-  .item-2{
+  .item-pokemon2{
       grid-column: 1/ -1;
   }
-  .item-3{
+  .item-pokemon3{
     margin-left: 5%;
       grid-column: span 2;
       width: 20%;
 
   }
-  .item-4{
+  .item-pokemon4{
       grid-column: span 2;
       width: 20%;
   }
