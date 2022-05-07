@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style page jeux description.css">
+    <link rel="stylesheet" href="style page_jeux_description.css">
+    <link rel="stylesheet" href="header_footer.css">
     <title>Pokemon arceus switch</title>
 </head>
+<?php
+include 'header.php'
+?>
 <body>
     <div class=effet_3d><h1>POKEMON LEGENDS ARCEUS</h1></div>
     <div class="grid_4">
@@ -39,3 +43,8 @@
         </div>
         </div>
 
+        <?php
+include 'footer.php';
+?>
+</body>
+</html>

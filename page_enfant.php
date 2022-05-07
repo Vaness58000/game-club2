@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_page_console.css">
     <link rel="stylesheet" href="header_footer.css">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6baf9741f4.js"></script>
+    <title>ENFANTS</title>
 </head>
 <?php
 include 'header.php'
 ?>
 <body>
+<main>
+  <div id='center' class="main center">
     <h3 class="mini_gamer"><span>Sélection du moment <br>mini-gamer</span></h3>
+</div>
     <div class="grid2">
 
         <div class="item-1">
@@ -108,9 +112,9 @@ include 'header.php'
           </div>
         </div>
     </div>
+</main>
 <?php
 include 'footer.php';
 ?>
-
 </body>
 </html>

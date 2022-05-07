@@ -1,14 +1,18 @@
-
-
 body{
   margin: 0;
-}
-
-body {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
   background-color: #e0e0e0;
   text-align: center;
 }
-
+.grand_ecran{
+    display: none;
+}
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+}
 .xbox {
   margin: 20px;
   font-family: "Paytone One";
@@ -25,8 +29,8 @@ body {
 }
 .xbox span {
   display: block;
-  margin: 11px 0 17px 0;
-  font-size: 70px;
+  margin: 100px 0 -10px 0;
+  font-size: clamp(12px, 3rem, 70px);
   line-height: 80px;
   color: #4bb01f;
   text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
@@ -34,8 +38,8 @@ body {
 }
 .switch span{
   display: block;
-  margin: 11px 0 17px 0;
-  font-size: 70px;
+  margin: 100px 0 -10px 0;
+  font-size: clamp(12px, 3rem, 70px);
   line-height: 80px;
   color: #d21b1b;
   text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
@@ -54,8 +58,8 @@ body {
 }
 .playstation span{
   display: block;
-  margin: 11px 0 17px 0;
-  font-size: 70px;
+  margin: 100px 0 -10px 0;
+  font-size: clamp(12px, 3rem, 70px);
   line-height: 80px;
   color: #0b109c;
   text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
@@ -72,8 +76,8 @@ body {
 }
 .pc span{
   display: block;
-  margin: 11px 0 17px 0;
-  font-size: 70px;
+  margin: 100px 0 -10px 0;
+  font-size: clamp(12px, 3rem, 70px);
   line-height: 80px;
   color: #4b4b4b;
   text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
@@ -90,8 +94,8 @@ body {
 }
 .mini_gamer span{
   display: block;
-  margin: 11px 0 17px 0;
-  font-size: 70px;
+  margin: 100px 0 -10px 0;
+  font-size: clamp(12px, 3rem, 70px);
   line-height: 80px;
   color: #007074;
   text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
@@ -108,8 +112,8 @@ body {
 }
 .adulte span{
   display: block;
-  margin: 11px 0 17px 0;
-  font-size: 70px;
+  margin: 100px 0 -10px 0;
+  font-size: clamp(12px, 3rem, 70px);
   line-height: 80px;
   color: #fa5700;
   text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;

@@ -8,8 +8,7 @@
     .body-bg {
         
         background-image: url("img/paysage2.jpg");
-        background-size: 100%;
-        background-repeat: no-repeat;
+        background-size: cover;
         
     }
 </style>

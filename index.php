@@ -5,65 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style1.css">
-
+    <link rel="stylesheet" href="header_footer.css">
     <script src="https://kit.fontawesome.com/6baf9741f4.js"></script>
-
     <title>GAME CLUB</title>
 </head>
-<body>
 <?php
 include 'header.php'
 ?>
+<body>
+
 <main>
   <div id='center' class="main center">
     <div class="mainInner">
       <h3 class="switch"><span>NOUVEAUTES</span></h3>
     </div>
     <div class="grid_index">
-      <div class="item item-1 survol_texte">
-        <a href="#">
-          <img src="img/pokemon.jpg" alt=""></a>
-        <div class="contenu">
-        <div class="pegi"><img src="img/PEGI_7_white_(2003-2009).png"></div>  
-        <div class="texte">POKEMON envie d'aventure.....</div>
-        
-        </div>
+
+      <div class="item-1">
+          <a href="#">
+            <img src="img/switch3.jfif" alt="super_mario_3d"></a>
+              <div class="contenu">
+                <div class="pegi"><img src="img/pegi7.png"></div>
+                <div class="texte">Rejoignez Mario, Luigi, Peach et Toad, et partez à l'aventure pour sauver le royaume des Libellas dans Super Mario 3D World + Bowser’s Fury sur Nintendo Switch ! En solo ou avec jusqu'à trois autres joueurs, allez sauver la Princesse Libella et ses sujets dans cette version retravaillée de Super Mario 3D World.</div>      
+              </div>
       </div>
-        <div class="item item-2 survol_texte">
-          <a href="#"></a>
-            <img src="img/call of.jfif" alt="">
-            <div class="contenu"></div>
-            <div class="pegi"><img src="img/PEGI_7_white_(2003-2009).png"></div>  
-        <div class="texte">CALL OF DUTY envie d'aventure.....</div>
-        </div>
-        <div class="item item-3">
-          <a href="#"></a>
-            <img src="img/jeux-video-pour-enfants.jpg" alt="">
-        </div>
-        <div class="item item-4">
-          <a href="#"></a>
-            <img src="img/Peppa pig.jpg" alt="">
-        </div>
-        <div class="item item-5">
-          <a href="#"></a>
-            <img src="img/pat'patrouille.jfif" alt="">
-        </div>
-        <div class="item item-6">
-          <a href="#"></a>
-            <img src="img/starcraft.jfif" alt="">
-        </div>
-        <div class="item item-7">
-          <a href="#"></a>
-            <img src="img/super mario.jpg" alt="">
-        </div>
-        <div class="item item-8">
-          <a href="#"></a>
-            <img src="img/fortnite.jfif" alt="">
-        </div>
-    </div>
+        
+        <div class="item-2">
+            <a href="#">
+                <img  src="img/switch2.jfif" alt="mario_kart8">  </a>
+                <div class="contenu">
+                  <div class="pegi"><img src="img/pegi3.jfif"></div>
+                    <div class="texte">Découvrez le plus grand Mario Kart jamais créé et jouez-y où vous voulez, quand vous voulez : Mario Kart 8 Deluxe, uniquement sur Nintendo Switch ! </div>
+                    
+              </div>
+          </div>
+
+          <div class="item-3">
+            <a href="#">
+                <img  src="img/siwtch5.jpg" alt="zelda"> </a>
+                <div class="contenu">
+                  <div class="pegi"><img src="img/pegi12.png"></div>
+                    <div class="texte"> Plongez dans un monde de découverte, d'exploration et d'aventure dans The Legend of Zelda: Breath of the Wild, un nouveau jeu qui vient bouleverser la série à succès.</div>
+                    
+              </div>
+          </div>
+
+          <div class="item-4">
+            <a href="#">
+                <img src="img/switch9.jpg" alt="splatoon2">  </a>
+                <div class="contenu">
+                  <div class="pegi"><img src="img/pegi7.png"></div>
+                    <div class="texte">Réclamez votre territoire, où, quand et avec qui vous le souhaitez dans Splatoon 2, en exclusivité sur Nintendo Switch.</div>
+                    
+              </div>
+          </div>
+
+          <div class="item-5">
+            <a href="#">
+                <img src="img/marsupilami_secret_du_sarcophage.jpg" alt="marsoupilami">    </a>
+                <div class="contenu">
+                  <div class="pegi"><img src="img/pegi7.png"></div>
+                    <div class="texte">Découvrez les Marsupilamis comme vous ne les avez jamais vu dans une aventure pleine de rebondissement ! </div>
+                    
+              </div>
+          </div>  
+
+          <div class="item-6">
+            <a href="#">
+                <img src="img/roblox.jfif" alt="roblox">          
+              </a>
+              <div class="contenu">
+                <div class="pegi"><img src="img/pegi7.png"></div>
+                  <div class="texte"> Roblox est l'univers virtuel ultime qui te permet de créer, de partager des expériences avec tes amis et d'être tout ce que tu peux imaginer.</div>
+                  
+            </div>
+          </div>
+
+          <div class="item-7">
+            <a href="#">
+                <img src="img/switch6.jfif" alt="super_smash_bros">          
+              </a>
+              <div class="contenu">
+                <div class="pegi"><img src="img/pegi12.png"></div>
+                  <div class="texte">Retrouvez Mario, Donkey Kong, Link, Samus, Yoshi, Kirby, Fox, Pikachu et quatre autres personnages cachés et participez à des combats d'arène démentiels ! </div>
+                  
+            </div>
+          </div>
+
+          <div class="item-8">
+            <a href="#">
+                <img src="img/playstation3.jfif" alt="kena">          
+              </a>
+              <div class="contenu">
+                <div class="pegi"><img src="img/pegi12.png"></div>
+                  <div class="texte"> Incarnez Kena et rassemblez une équipe de compagnons-esprits charmants appelés les Rots.</div>
+                  
+            </div>
+          </div>
+
+          <div class="item-9">
+            <a href="#">
+                <img src="img/switch7.jpg" alt="luigi_mansion3">          
+              </a>
+              <div class="contenu">
+                <div class="pegi"><img src="img/pegi7.png"></div>
+                  <div class="texte">Le frère de Mario devra encore une fois faire face à ses plus grandes peurs pour secourir ses amis, toujours à l’intérieur d’un hôtel des plus effrayants.</div>
+                  
+            </div>
+          </div>
     </div>
     <div class="mainInner">
-      <div>PURE CSS SIDEBAR TOGGLE MENU</div>
+      <div>DES JEUX POUR TOUTE LA FAMILLE </div>
     </div>
   </div>
 </main>

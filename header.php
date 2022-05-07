@@ -1,5 +1,5 @@
 
-  <header>
+<header>
 <div class="mobile">
    <div class="header"></div>
   <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
@@ -10,7 +10,7 @@
   </label>
 <div id="sidebarMenu">
     <nav>
-    <ul class="sidebarMenuInner" >
+    <ul class="sidebarMenuInner">
       <li><span>CATEGORIES</span></li>
       <li><a href="page_xbox.php" target="_blank">XBOX ONE|XBOX SERIES S|X</a></li>
       <li><a href="page_playstation.php" target="_blank">PLAYSTATION 4|5</a></li>
@@ -24,7 +24,7 @@
     </nav>
   </div>
 </div>
-    <nav class="grand_ecran" >
+    <nav class="grand_ecran">
         <ul>
           <li class="deroulant"><a href="#">PLATEFORMES JEUX &ensp;</a>
             <ul class="sous">
@@ -38,7 +38,6 @@
             <ul class="sous">
               <li><a href="page_enfant.php">ENFANTS</a></li>
               <li><a href="page_adulte.php">ADULTES</a></li>
-              <li><a href="#">CSS float</a></li>
             </ul>
           </li>
           <li><a href="#">JEUX ANCIENS</a></li>

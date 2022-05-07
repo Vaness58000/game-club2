@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style page console.css">
+    <link rel="stylesheet" href="style_page_console.css">
+    <link rel="stylesheet" href="header_footer.css">
+    <script src="https://kit.fontawesome.com/6baf9741f4.js"></script>
     <title>XBOX</title>
 </head>
+<?php
+include 'header.php'
+?>
 <body>
-
+<main>
+  <div id='center' class="main center">
         
   <h3 class="xbox"><span>XBOX</span></h3>
-        <div class="grid">
+        <div class="grid2">
 
             <div class="item-1">
               <a href="#">
@@ -63,7 +69,9 @@
                 </a>
             </div>
         </div>
-
- 
+        </main>
+        <?php
+include 'footer.php'
+?>
 </body>
 </html>

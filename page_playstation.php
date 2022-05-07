@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_page_console.css">
     <link rel="stylesheet" href="header_footer.css">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6baf9741f4.js"></script>
+    <title>Playstation</title>
 </head>
 <?php
 include 'header.php'
 ?>
 <body>
+<main>
+  <div id='center' class="main center">
 <h3 class="playstation"><span>PLAYSTATION</span></h3>
         <div class="grid2">
 
@@ -64,7 +67,8 @@ include 'header.php'
                 </a>
             </div>
         </div>
-        <?php
+</main>
+<?php
 include 'footer.php';
 ?>
 </body>
