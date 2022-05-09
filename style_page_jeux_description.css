@@ -89,7 +89,7 @@ article{
   margin-left: 5%;
   margin-right: 5%;
   }
-  .item_logo_console, .item_jeu_pegi{
+  .item_jeu_pegi{
     grid-column: span 1;
   }
   .video{
