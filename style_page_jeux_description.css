@@ -1,18 +1,27 @@
 body{
-  margin:0;
-  background-color: #acacac;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #e0e0e0;
+  text-align: center;
+}
+.grand_ecran{
+  display: none;
+}
+html, body {
+  overflow-x: hidden;
+  height: 100%;
 }
 .categorie_page_jeu_enfant{
-  margin-top: 5%;
-  margin-left: 5%;
+  margin: 100px 0 -10px 0;
   font-size: 2vw;
-  color: rgb(255, 237, 42);
+  color: rgb(223, 177, 53);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 500;
 }
 .categorie_page_jeu_adulte{
-  margin-top: 5%;
-  margin-left: 5%;
+  margin: 100px 0 -10px 0;
   font-size: 2vw;
   color: rgb(36, 41, 42);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -170,3 +179,15 @@ article{
       line-height: 2rem;
     }
   } 
+  @media screen and (max-width: 768px){
+    
+    .text{
+      display: none;
+    }
+    .description{
+      display: none;
+    }
+    .pegi{
+      display:none;
+    }
+  }

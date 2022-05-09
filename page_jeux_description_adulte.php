@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_page_jeux_description.css">
+    <link rel="stylesheet" href="header_footer.css">
+    <script src="https://kit.fontawesome.com/6baf9741f4.js"></script>
     <title>Halo infinite xbox</title>
 </head>
+<?php
+include 'header.php'
+?>
 <body>
+    <main>
     <div class="categorie_page_jeu_adulte"><span>XBOX </span> - <span>ADULTE</span></div>
     <div class=effet_3d_adulte><h1>HALO INFINITE</h1></div>
     <div class="grid_jeu_ind">
@@ -31,5 +37,11 @@
             <button class="bouton_video"><a href="https://www.youtube.com/watch?v=PyMlV5_HRWk" target="_blank">Voir teaser</a></button>
         </div>
     </div>
+    </main>
+    <?php
+include 'footer.php'
+?>
+</body>
+</html>
        
 

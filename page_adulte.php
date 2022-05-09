@@ -24,8 +24,8 @@ include 'header.php'
 </div>
 
 <div class="item-2">
-  <a href="#">
-      <img  src="img/playstation9.jfif" alt="horizon2">  </a>
+  <a href="page_jeux_description_adulte.php">
+      <img  src="img/xbox2.jfif" alt="horizon2">  </a>
 </div>
 
 <div class="item-3">

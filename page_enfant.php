@@ -20,7 +20,7 @@ include 'header.php'
     <div class="grid2">
 
         <div class="item-1">
-          <a href="#">
+          <a href="page_jeux_description_enfant.php">
               <img src="img/switch3.jfif" alt="super_mario_3d">    </a>
               <div class="description">
                 <div class="pegi"><img src="img/pegi7.png"></div>

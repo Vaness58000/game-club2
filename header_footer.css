@@ -228,7 +228,7 @@ input{
             top:0;
             width: 100%;
             margin: 0 auto;
-            background-color: rgb(19, 41, 27);
+            background-color: rgb(41, 30, 19);
             z-index: 100;
             font-size: clamp(12px, 1rem, 20px);  
         }
