@@ -19,7 +19,7 @@ include 'header.php'
     <div class="grid_jeu_ind">
         
         <div class="item_jeu_image">
-            <img src="img/xbox2.jfif" alt="Halo_infinite">
+            <img src="img/xbox2.jpg" alt="Halo_infinite">
         </div>
 
         <div class="item_jeu_description">

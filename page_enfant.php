@@ -15,7 +15,7 @@ include 'header.php'
 <body>
 <main>
   <div id='center' class="main center">
-    <h3 class="mini_gamer"><span>Sélection du moment <br>mini-gamer</span></h3>
+    <h3 class="mini_gamer"><span>Sélection mini-gamer</span></h3>
 </div>
     <div class="grid2">
 

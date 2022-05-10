@@ -21,50 +21,95 @@ include 'header.php'
 <div class="item-1">
   <a href="#">
       <img src="img/xbox3.jfif" alt="scorn">    </a>
+      <div class="description">
+                <div class="pegi"><img src="img/pegi7.png"></div>
+                  <div class="text">Rejoignez Mario, Luigi, Peach et Toad, et partez à l'aventure pour sauver le royaume des Libellas dans Super Mario 3D World + Bowser’s Fury sur Nintendo Switch ! En solo ou avec jusqu'à trois autres joueurs, allez sauver la Princesse Libella et ses sujets dans cette version retravaillée de Super Mario 3D World.</div>
+                  
+            </div>
 </div>
 
 <div class="item-2">
   <a href="page_jeux_description_adulte.php">
-      <img  src="img/xbox2.jfif" alt="horizon2">  </a>
+      <img  src="img/xbox2.jpg" alt="horizon2">  </a>
+      <div class="description">
+                <div class="pegi"><img src="img/pegi7.png"></div>
+                  <div class="text">Rejoignez Mario, Luigi, Peach et Toad, et partez à l'aventure pour sauver le royaume des Libellas dans Super Mario 3D World + Bowser’s Fury sur Nintendo Switch ! En solo ou avec jusqu'à trois autres joueurs, allez sauver la Princesse Libella et ses sujets dans cette version retravaillée de Super Mario 3D World.</div>
+                  
+            </div>
 </div>
 
 <div class="item-3">
   <a href="#">
       <img  src="img/pc9.jfif" alt="league_of_legends"> </a>
+      <div class="description">
+                <div class="pegi"><img src="img/pegi7.png"></div>
+                  <div class="text">Rejoignez Mario, Luigi, Peach et Toad, et partez à l'aventure pour sauver le royaume des Libellas dans Super Mario 3D World + Bowser’s Fury sur Nintendo Switch ! En solo ou avec jusqu'à trois autres joueurs, allez sauver la Princesse Libella et ses sujets dans cette version retravaillée de Super Mario 3D World.</div>
+                  
+            </div>
 </div>
 
 <div class="item-4">
   <a href="#">
       <img src="img/xbox8.jpg" alt="ark2">  </a>
+      <div class="description">
+                <div class="pegi"><img src="img/pegi7.png"></div>
+                  <div class="text">Rejoignez Mario, Luigi, Peach et Toad, et partez à l'aventure pour sauver le royaume des Libellas dans Super Mario 3D World + Bowser’s Fury sur Nintendo Switch ! En solo ou avec jusqu'à trois autres joueurs, allez sauver la Princesse Libella et ses sujets dans cette version retravaillée de Super Mario 3D World.</div>
+                  
+            </div>
 </div>
 
 <div class="item-5">
   <a href="#">
       <img src="img/pc3.jfif" alt="starcraft2">    </a>
+      <div class="description">
+                <div class="pegi"><img src="img/pegi7.png"></div>
+                  <div class="text">Rejoignez Mario, Luigi, Peach et Toad, et partez à l'aventure pour sauver le royaume des Libellas dans Super Mario 3D World + Bowser’s Fury sur Nintendo Switch ! En solo ou avec jusqu'à trois autres joueurs, allez sauver la Princesse Libella et ses sujets dans cette version retravaillée de Super Mario 3D World.</div>
+                  
+            </div>
 </div>  
 
 <div class="item-6">
   <a href="#">
       <img src="img/playstation1.png" alt="returnal">          
     </a>
+    <div class="description">
+                <div class="pegi"><img src="img/pegi7.png"></div>
+                  <div class="text">Rejoignez Mario, Luigi, Peach et Toad, et partez à l'aventure pour sauver le royaume des Libellas dans Super Mario 3D World + Bowser’s Fury sur Nintendo Switch ! En solo ou avec jusqu'à trois autres joueurs, allez sauver la Princesse Libella et ses sujets dans cette version retravaillée de Super Mario 3D World.</div>
+                  
+            </div>
 </div>
 
 <div class="item-7">
   <a href="#">
       <img src="img/xbox7.jfif" alt="senua_s_saga_hellblade2">          
     </a>
+    <div class="description">
+                <div class="pegi"><img src="img/pegi7.png"></div>
+                  <div class="text">Rejoignez Mario, Luigi, Peach et Toad, et partez à l'aventure pour sauver le royaume des Libellas dans Super Mario 3D World + Bowser’s Fury sur Nintendo Switch ! En solo ou avec jusqu'à trois autres joueurs, allez sauver la Princesse Libella et ses sujets dans cette version retravaillée de Super Mario 3D World.</div>
+                  
+            </div>
 </div>
 
 <div class="item-8">
   <a href="#">
       <img src="img/pc1.jpg" alt="escape_from_tarkov">          
     </a>
+    <div class="description">
+                <div class="pegi"><img src="img/pegi7.png"></div>
+                  <div class="text">Rejoignez Mario, Luigi, Peach et Toad, et partez à l'aventure pour sauver le royaume des Libellas dans Super Mario 3D World + Bowser’s Fury sur Nintendo Switch ! En solo ou avec jusqu'à trois autres joueurs, allez sauver la Princesse Libella et ses sujets dans cette version retravaillée de Super Mario 3D World.</div>
+                  
+            </div>
 </div>
 
 <div class="item-9">
   <a href="#">
       <img src="img/playstation8.jfif" alt="ghostwire">          
     </a>
+    <div class="description">
+                <div class="pegi"><img src="img/pegi7.png"></div>
+                  <div class="text">Rejoignez Mario, Luigi, Peach et Toad, et partez à l'aventure pour sauver le royaume des Libellas dans Super Mario 3D World + Bowser’s Fury sur Nintendo Switch ! En solo ou avec jusqu'à trois autres joueurs, allez sauver la Princesse Libella et ses sujets dans cette version retravaillée de Super Mario 3D World.</div>
+                  
+            </div>
 </div>
 </div>
 </main>
