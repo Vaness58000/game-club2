@@ -32,7 +32,7 @@ include 'header.php'
 
             <div class="item-2">
               <a href="page_adulte.php">
-                  <img  src="img/xbox2.jpg" alt="halo infinite">  </a>
+                  <img  src="img/xbox2.jfif" alt="halo infinite">  </a>
                   <div class="description">
                 <div class="pegi"><img src="img/pegi7.png"></div>
                   <div class="text">Rejoignez Mario, Luigi, Peach et Toad, et partez à l'aventure pour sauver le royaume des Libellas dans Super Mario 3D World + Bowser’s Fury sur Nintendo Switch ! En solo ou avec jusqu'à trois autres joueurs, allez sauver la Princesse Libella et ses sujets dans cette version retravaillée de Super Mario 3D World.</div>

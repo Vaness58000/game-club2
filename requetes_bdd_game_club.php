@@ -1,0 +1,11 @@
+<?php
+INSERT INTO `categories` (`id_categorie`, `categorie`) VALUES (NULL, 'enfants'), (NULL, 'adultes');//creation categorie enfants et adultes
+
+INSERT INTO `produits` (`id`, `nom`, `console`, `resume`, `description`, `image`, `id_categories`, `image_pegi`) VALUES (NULL, 'Sea of Thieves', 'xbox', 'EXPLOREZ LES MERS. VIVEZ LA GRANDE AVENTURE. DEVENEZ UNE LÉGENDE PIRATE.', 'Deux mondes pirates se rencontrent au cœur d\'une incroyable histoire originale dans Sea of Thieves: A Pirate\'s Life ! Faites équipe avec le capitaine Jack Sparrow au cours de cinq nouvelles fables du flibustier qui vous emmèneront dans de nouveaux lieux à Sea of Thieves et au-delà !', 'xbox1.jfif', '2', 'pegi12.png'), (NULL, 'Halo Infinite', 'xbox', 'Lone Wolves, préparez-vous pour la saison 2 de Halo Infinite ! Découvrez du contenu frais, notamment de nouvelles cartes, de nouveaux modes, des événements thématiques à durée limitée.', 'Halo Infinite se positionne comme le sixième opus de la série Halo, et le troisième et dernier jeu de la saga du Dépositaire. Un crossplay et la possibilité de conserver sa sauvegarde et ses statistiques d’une plateforme pour le mode multijoueur. En terme de gameplay, Halo Infinite introduit le Lance-grappin, un grappin pouvant être utilisé librement en campagne pour se déplacer dans les environnements, foncer sur les ennemis (qui recevront alors un coup de crosse) ou attirer des objets vers soi (comme les bobines à fusion qui peuvent ensuite être lancées sur vos adversaires).D’autres capacités à usage limité comme le Mur portatif, un mur protecteur bloquant les tirs et grenades ennemis mais pas les créatures, seront aussi disséminées dans les espaces de jeu. En multijoueur, les Lances-grappin, Murs portatifs et autres équipements ne feront pas partie du paquetage et devront être ramassés sur les cartes. Le mode multijoueur de Halo Infinite est free-to-play sur toutes les plateformes. Il propose un mode Arena en 4 contre 4 et un mode Big Team Battle en 12 contre 12. La Spartan Academy vous permet de découvrir les rudiments du gameplay de Halo au travers de tutoriels, d’exercices armés et de matches contre des bots.', 'xbox2.jfif', '2', 'pegi18.png');
+
+
+
+
+
+
+?>
