@@ -18,6 +18,7 @@
       <li><a href="page_pc.php" target="_blank">PC</a></li>
       <li><a href="page_enfant.php" target="_blank">ENFANTS</a></li>
       <li><a href="page_adulte.php" target="_blank">ADULTES</a></li>
+      <li><a href="http://www.1980-games.com/?msclkid=a27b45c7cf9911eca923896ebd2b115f" target="_blank">JEUX ANCIENS</a></li>
       <li><a href="test_connexion2.php">SE CONNECTER</a></li>
       <li><a href="formulaire_inscription.php">CREER UN COMPTE</a></li>
     </ul>
@@ -40,7 +41,7 @@
               <li><a href="page_adulte.php">ADULTES</a></li>
             </ul>
           </li>
-          <li><a href="#">JEUX ANCIENS</a></li>
+          <li><a href="http://www.1980-games.com/?msclkid=a27b45c7cf9911eca923896ebd2b115f">JEUX ANCIENS</a></li>
           <li><a href="test_connexion2.php">SE CONNECTER</a></li>
           <li><a href="formulaire_inscription.php">CREER UN COMPTE</a></li>
         </ul>

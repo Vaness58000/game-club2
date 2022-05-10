@@ -29,7 +29,7 @@ include 'header.php'
             </div>
 
             <div class="item-3">
-              <a href="#">
+              <a href="page_enfant.php">
                   <img  src="img/switch3.jfif" alt="super_mario3d">  </a>
             </div>
 

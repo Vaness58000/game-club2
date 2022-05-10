@@ -26,7 +26,7 @@ include 'header.php'
             </div>
 
             <div class="item-2">
-              <a href="#">
+              <a href="page_adulte.php">
                   <img  src="img/xbox2.jfif" alt="halo infinite">  </a>
             </div>
 
