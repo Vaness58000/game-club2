@@ -7,18 +7,54 @@
     <link rel="stylesheet" href="style_page_console.css">
     <link rel="stylesheet" href="header_footer.css">
     <script src="https://kit.fontawesome.com/6baf9741f4.js"></script>
-    <title>Document</title>
+    <title>SWITCH</title>
 </head>
 <?php
 include 'header.php'
+?>
+<?php
+            $servname = "localhost"; $dbname = "game_club"; $user = "root"; $pass = "Gladiator/89";
+            
+            try{
+                $connexion = new PDO("mysql:host=$servname;dbname=$dbname;charset=utf8", $user, $pass);
+                $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                
+                /*Sélectionne les valeurs dans les colonnes nom, descriptif et images de la table
+                 *users pour chaque entrée de la table*/
+                $requete = $connexion->prepare("SELECT image, resume, image_pegi, nom FROM produits WHERE console='switch' ORDER BY id DESC LIMIT 9 ");
+                $requete->execute();
+                
+                /*Retourne un tableau associatif pour chaque entrée de notre table
+                 *avec le nom des colonnes sélectionnées en clefs*/
+                $produits = $requete->fetchAll(PDO::FETCH_ASSOC);
+                
+            }  
+            catch(PDOException $e){
+                echo "Erreur : " . $e->getMessage();
+            }      
 ?>
 <body>
 <main>
   <div id='center' class="main center">
 <h3 class="switch"><span>SWITCH</span></h3>
         <div class="grid2">
+<?php
+        $i=1; 
+foreach ($produits as $produit) {?>
+  <div class="item-<?php echo $i; ?>">
+  <a href="#">
+      <img src="./img/<?php echo $produit["image"] ?>" alt="<?php echo $produit["nom"] ?>"></a>
+      <div class="description">
+                <div class="pegi"><img src="./img/<?php echo $produit["image_pegi"] ?>"></div>
+                <div class="text"><?php echo $produit["resume"] ?></div>
+                  
+      </div>
+  </div>
+<?php
+$i++;} 
+?>
 
-            <div class="item-1">
+           <!-- <div class="item-1">
               <a href="#">
                   <img src="img/switch1.jpg" alt="pokemon_legend"></a>
             </div>
@@ -65,8 +101,9 @@ include 'header.php'
               <a href="#">
                   <img src="img/switch9.jpg" alt="splatoon">          
                 </a>
-            </div>
+            </div>-->
         </div>
+    </div>
   </main>
 <?php
 include 'footer.php'

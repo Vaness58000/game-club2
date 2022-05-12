@@ -1,0 +1,21 @@
+<?php
+            $servname = "localhost"; $dbname = "game_club"; $user = "root"; $pass = "Gladiator/89";
+            
+            try{
+                $connexion = new PDO("mysql:host=$servname;dbname=$dbname;charset=utf8", $user, $pass);
+                $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                
+                /*Sélectionne les valeurs dans les colonnes nom, descriptif et images de la table
+                 *users pour chaque entrée de la table*/
+                $requete = $connexion->prepare("SELECT resume, image, image_pegi FROM produits ORDER BY id DESC LIMIT 9 ");
+                $requete->execute();
+                
+                /*Retourne un tableau associatif pour chaque entrée de notre table
+                 *avec le nom des colonnes sélectionnées en clefs*/
+                $produits = $requete->fetchAll(PDO::FETCH_ASSOC);
+                
+            }  
+            catch(PDOException $e){
+                echo "Erreur : " . $e->getMessage();
+            }      
+?>

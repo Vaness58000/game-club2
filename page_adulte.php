@@ -17,8 +17,10 @@ include 'header.php'
   <div id='center' class="main center">
     <h3 class="adulte"><span>Sélection du moment <br>réservé aux adultes</span></h3>
     <div class="grid2">
-
-<div class="item-1">
+<?php /*
+$i=1; 
+foreach ($variable as $value) {?>
+  <div class="item-<?php echo $i; ?>">
   <a href="#">
       <img src="img/xbox3.jfif" alt="scorn">    </a>
       <div class="description">
@@ -27,6 +29,10 @@ include 'header.php'
                   
             </div>
 </div>
+<?php
+$i++;} */
+?>
+
 
 <div class="item-2">
   <a href="page_jeux_description_adulte.php">

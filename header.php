@@ -1,4 +1,3 @@
-
 <header>
 <div class="mobile">
    <div class="header"></div>
@@ -19,12 +18,17 @@
       <li><a href="page_enfant.php" target="_blank">ENFANTS</a></li>
       <li><a href="page_adulte.php" target="_blank">ADULTES</a></li>
       <li><a href="http://www.1980-games.com/?msclkid=a27b45c7cf9911eca923896ebd2b115f" target="_blank">JEUX ANCIENS</a></li>
+     <?php if(!isset ($_SESSION ['user'])){ ?>
       <li><a href="test_connexion2.php">SE CONNECTER</a></li>
+     <?php }else{ ?>
+      <li><a href="deconnexion.php">SE DECONNECTER</a></li>
+       <?php } ?>
       <li><a href="formulaire_inscription.php">CREER UN COMPTE</a></li>
     </ul>
-    </nav>
-  </div>
+    </nav> 
+      </div>
 </div>
+
     <nav class="grand_ecran">
         <ul>
           <li class="deroulant"><a href="#">PLATEFORMES JEUX &ensp;</a>
@@ -42,9 +46,15 @@
             </ul>
           </li>
           <li><a href="http://www.1980-games.com/?msclkid=a27b45c7cf9911eca923896ebd2b115f">JEUX ANCIENS</a></li>
-          <li><a href="test_connexion2.php">SE CONNECTER</a></li>
-          <li><a href="formulaire_inscription.php">CREER UN COMPTE</a></li>
+          <?php if(!isset ($_SESSION ['user'])){ ?>
+      <li><a href="test_connexion2.php">SE CONNECTER</a></li>
+     <?php }else{ ?>
+      <li><a href="deconnexion.php">SE DECONNECTER</a></li>
+       <?php } ?>
+          <li>
+      <a href="formulaire_inscription.php">CREER UN COMPTE</a></li>
         </ul>
       </nav>
+      
   </div>
 </header>

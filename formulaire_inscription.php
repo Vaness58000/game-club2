@@ -26,25 +26,21 @@
     </section>
 
     <section class="mt-10">
-        <form class="flex flex-col" method="POST" action="#">
+        <form class="flex flex-col" method="POST" action="inscription_utilisateurs.php">
             <div class="mb-6 pt-3 rounded bg-gray-200">
-                <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="email">Pseudo</label>
-                <input type="text" id="email" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-green-700 transition duration-500 px-3 pb-3 shadow-outline">
+                <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="pseudo">Pseudo</label>
+                <input type="text" id="pseudo" name="pseudo" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-green-700 transition duration-500 px-3 pb-3 shadow-outline">
             </div>
             <div class="mb-6 pt-3 rounded bg-gray-200">
                 <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="email">Email</label>
-                <input type="text" id="email" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-green-700 transition duration-500 px-3 pb-3 shadow-outline">
+                <input type="text" id="email" name="email" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-green-700 transition duration-500 px-3 pb-3 shadow-outline">
             </div>
             <div class="mb-6 pt-3 rounded bg-gray-200">
-                <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="password">Mot de passe</label>
-                <input type="password" id="password" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-green-700 transition duration-500 px-3 pb-3">
+                <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="mdp">Mot de passe</label>
+                <input type="password" id="mdp" name ="mdp" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-green-700 transition duration-500 px-3 pb-3">
             </div>
-            <div class="mb-6 pt-3 rounded bg-gray-200">
-                <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="password">Confirmation du Mot de passe</label>
-                <input type="password" id="password" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-green-700 transition duration-500 px-3 pb-3">
-            </div>
-          
-            <button class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" type="submit">S'inscrire</button>
+            
+            <button class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" type="submit" name="inscription">S'inscrire</button>
         </form>
     </section>
 </main>

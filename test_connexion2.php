@@ -28,19 +28,16 @@
     </section>
 
     <section class="mt-10">
-        <form class="flex flex-col" method="POST" action="#">
+        <form class="flex flex-col" method="POST" action="connexion_utilisateurs.php">
             <div class="mb-6 pt-3 rounded bg-gray-200">
                 <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="email">Email</label>
-                <input type="text" id="email" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-blue-700 transition duration-500 px-3 pb-3 shadow-outline">
+                <input type="text" id="email" name="email" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-blue-700 transition duration-500 px-3 pb-3 shadow-outline">
             </div>
             <div class="mb-6 pt-3 rounded bg-gray-200">
                 <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="password">Mot de passe</label>
-                <input type="password" id="password" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-blue-700 transition duration-500 px-3 pb-3">
+                <input type="password" id="mdp" name="mdp" class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-blue-700 transition duration-500 px-3 pb-3">
             </div>
-            <div class="flex justify-end">
-                <a href="#" class="text-sm text-white hover:text-blue-200 hover:underline mb-6">Mot de passe oublié?</a>
-            </div>
-            <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" type="submit">Connexion</button>
+            <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 rounded shadow-lg hover:shadow-xl transition duration-200" type="submit" name="connecter">Connexion</button>
         </form>
     </section>
 </main>
