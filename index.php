@@ -1,4 +1,5 @@
 <?php
+// Initialiser la session
 session_start();
 ?>
 
@@ -25,7 +26,7 @@ include 'header.php'
                 
                 /*Sélectionne les valeurs dans les colonnes nom, descriptif et images de la table
                  *users pour chaque entrée de la table*/
-                $requete = $connexion->prepare("SELECT image, resume, image_pegi, nom FROM produits ORDER BY id DESC LIMIT 9 ");
+                $requete = $connexion->prepare("SELECT id, image, resume, image_pegi, nom FROM produits ORDER BY RAND() LIMIT 9 ");
                 $requete->execute();
                 
                 /*Retourne un tableau associatif pour chaque entrée de notre table
@@ -44,21 +45,12 @@ include 'header.php'
     <div class="mainInner">
       <h3 class="switch"><span>NOUVEAUTES</span></h3>
     </div>
-    <div class="grid_index">
-
-      <!--<div class="item-1">
-          <a href="page_jeux_description_enfant.php">
-            <img src="img/switch3.jfif" alt="super_mario_3d"></a>
-              <div class="contenu">
-                <div class="pegi"><img src="img/pegi7.png"></div>
-                <div class="texte">Rejoignez Mario, Luigi, Peach et Toad, et partez à l'aventure pour sauver le royaume des Libellas dans Super Mario 3D World + Bowser’s Fury sur Nintendo Switch ! En solo ou avec jusqu'à trois autres joueurs, allez sauver la Princesse Libella et ses sujets dans cette version retravaillée de Super Mario 3D World.</div>      
-              </div>
-      </div>-->
+    <div class="grid_index">     
       <?php 
 $i=1; 
 foreach ($produits as $produit) {?>
   <div class="item-<?php echo $i; ?>">
-  <a href="#">
+  <a href="page_jeux_description.php?page=<?php echo $produit["id"]; ?>">
       <img src="./img/<?php echo $produit["image"] ?>" alt="<?php echo $produit["nom"] ?>"></a>
       <div class="contenu">
                 <div class="pegi"><img src="./img/<?php echo $produit["image_pegi"] ?>"></div>
@@ -69,6 +61,16 @@ foreach ($produits as $produit) {?>
 <?php
 $i++;} 
 ?>
+
+<!--<div class="item-1">
+          <a href="page_jeux_description_enfant.php">
+            <img src="img/switch3.jfif" alt="super_mario_3d"></a>
+              <div class="contenu">
+                <div class="pegi"><img src="img/pegi7.png"></div>
+                <div class="texte">Rejoignez Mario, Luigi, Peach et Toad, et partez à l'aventure pour sauver le royaume des Libellas dans Super Mario 3D World + Bowser’s Fury sur Nintendo Switch ! En solo ou avec jusqu'à trois autres joueurs, allez sauver la Princesse Libella et ses sujets dans cette version retravaillée de Super Mario 3D World.</div>      
+              </div>
+      </div>-->
+
        <!-- <div class="item-2">
             <a href="#">
                 <img  src="img/switch2.jfif" alt="mario_kart8">  </a>

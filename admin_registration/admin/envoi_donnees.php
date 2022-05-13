@@ -16,22 +16,6 @@
 </body>
 </html>
 
-<!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
 <div>
   <div class="md:grid md:grid-cols-3 md:gap-6">
     <div class="md:col-span-1">
@@ -73,8 +57,33 @@
         <div class="shadow overflow-hidden sm:rounded-md">
           <div class="px-4 py-5 bg-white space-y-6 sm:p-6">
             <fieldset>
-              <legend class="sr-only">Type de public</legend>
-              <div class="text-base font-medium text-gray-900" aria-hidden="true">Type de public</div>
+              <legend class="sr-only">Type de public IMAGE JEU</legend>
+              <div class="text-base font-medium text-gray-900" aria-hidden="true">Type de public IMAGE JEU</div>
+              <div class="mt-4 space-y-4">
+                <div class="flex items-start">
+                  <div class="flex items-center h-5">
+                    <input id="adultes" name="categorie" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+                  </div>
+                  <div class="ml-3 text-sm">
+                    <label for="adultes" class="font-medium text-gray-700">Adultes</label>
+                    <p class="text-gray-500">A partir de 16 ans</p>
+                  </div>
+                </div>
+                <div class="flex items-start">
+                  <div class="flex items-center h-5">
+                    <input id="enfants" name="categorie" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+                  </div>
+                  <div class="ml-3 text-sm">
+                    <label for="enfants" class="font-medium text-gray-700">Enfants</label>
+                    <p class="text-gray-500">Jusqu'à 12 ans</p>
+                  </div>
+                </div>
+                <div>
+                <input type="file" id="file" name="file" accept="image/png, image/jpeg, image/jfif, image/jpg" />
+                <img id="add-img" src="./icons8-ajouter-une-image-90.png" alt="ajouter une image" />
+            </div>
+            <legend class="sr-only">Type de public PEGI</legend>
+              <div class="text-base font-medium text-gray-900" aria-hidden="true">Type de public PEGI</div>
               <div class="mt-4 space-y-4">
                 <div class="flex items-start">
                   <div class="flex items-center h-5">
@@ -110,3 +119,20 @@
 <script src="image.js"></script>
 </body>
 </html>
+
+<!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->

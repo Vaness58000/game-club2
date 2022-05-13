@@ -21,7 +21,7 @@ include 'header.php'
                 
                 /*Sélectionne les valeurs dans les colonnes nom, descriptif et images de la table
                  *users pour chaque entrée de la table*/
-                $requete = $connexion->prepare("SELECT image, resume, image_pegi, nom FROM produits WHERE console='xbox' ORDER BY id DESC LIMIT 9 ");
+                $requete = $connexion->prepare("SELECT id, image, resume, image_pegi, nom FROM produits WHERE console='xbox' ORDER BY id DESC LIMIT 9 ");
                 $requete->execute();
                 
                 /*Retourne un tableau associatif pour chaque entrée de notre table
@@ -39,12 +39,11 @@ include 'header.php'
         
   <h3 class="xbox"><span>XBOX</span></h3>
         <div class="grid2">
-
         <?php 
 $i=1; 
 foreach ($produits as $produit) {?>
   <div class="item-<?php echo $i; ?>">
-  <a href="#">
+  <a href="page_jeux_description.php?page=<?php echo $produit["id"]; ?>">
       <img src="./img/<?php echo $produit["image"] ?>" alt="<?php echo $produit["nom"] ?>"></a>
       <div class="description">
                 <div class="pegi"><img src="./img/<?php echo $produit["image_pegi"] ?>"></div>
@@ -55,8 +54,16 @@ foreach ($produits as $produit) {?>
 <?php
 $i++;} 
 ?>
+        </div>
+        </div>
+        </main>
+        <?php
+include 'footer.php'
+?>
+</body>
+</html>
 
-           <!-- <div class="item-1">
+<!-- <div class="item-1">
               <a href="#">
                   <img src="img/xbox1.jfif" alt="sea_of_thieves">    
                 </a>
@@ -149,11 +156,3 @@ $i++;}
                   <div class="text">Rejoignez Mario, Luigi, Peach et Toad, et partez à l'aventure pour sauver le royaume des Libellas dans Super Mario 3D World + Bowser’s Fury sur Nintendo Switch ! En solo ou avec jusqu'à trois autres joueurs, allez sauver la Princesse Libella et ses sujets dans cette version retravaillée de Super Mario 3D World.</div>
                   
             </div>-->
-            </div>
-        </div>
-        </main>
-        <?php
-include 'footer.php'
-?>
-</body>
-</html>

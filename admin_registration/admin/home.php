@@ -2,7 +2,7 @@
 	// Initialiser la session
 	session_start();
 	// Vérifiez si l'utilisateur est connecté, sinon redirigez-le vers la page de connexion
-	if(!isset($_SESSION["username"])){
+	if(!isset($_SESSION["pseudo"])){
 		header("Location: login.php");
 		exit(); 
 	}
@@ -14,7 +14,7 @@
 	</head>
 	<body>
 		<div class="sucess">
-		<h1>Bienvenue <?php echo $_SESSION['username']; ?>!</h1>
+		<h1>Bienvenue <?php echo $_SESSION['pseudo']; ?>!</h1>
 		<p>C'est votre espace admin.</p>
 		<a href="add_user.php">Add user</a> | 
 		<a href="#">Update user</a> | 

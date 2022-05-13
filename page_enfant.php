@@ -12,6 +12,27 @@
 <?php
 include 'header.php'
 ?>
+<?php
+            $servname = "localhost"; $dbname = "game_club"; $user = "root"; $pass = "Gladiator/89";
+            
+            try{
+                $connexion = new PDO("mysql:host=$servname;dbname=$dbname;charset=utf8", $user, $pass);
+                $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                
+                /*Sélectionne les valeurs dans les colonnes nom, descriptif et images de la table
+                 *users pour chaque entrée de la table*/
+                $requete = $connexion->prepare("SELECT id, image, resume, image_pegi, nom FROM produits WHERE id_categories=1 ORDER BY RAND() LIMIT 9 ");
+                $requete->execute();
+                
+                /*Retourne un tableau associatif pour chaque entrée de notre table
+                 *avec le nom des colonnes sélectionnées en clefs*/
+                $produits = $requete->fetchAll(PDO::FETCH_ASSOC);
+                
+            }  
+            catch(PDOException $e){
+                echo "Erreur : " . $e->getMessage();
+            }      
+?>
 <body>
 <main>
   <div id='center' class="main center">
@@ -19,7 +40,32 @@ include 'header.php'
 </div>
     <div class="grid2">
 
-        <div class="item-1">
+    <?php 
+$i=1; 
+foreach ($produits as $produit) {?>
+<div class="item-<?php echo $i; ?>">
+<a href="page_jeux_description.php?page=<?php echo $produit["id"]; ?>">
+<img src="./img/<?php echo $produit["image"] ?>" alt="<?php echo $produit["nom"] ?>"></a>
+<div class="description">
+        <div class="pegi"><img src="./img/<?php echo $produit["image_pegi"] ?>"></div>
+        <div class="text"><?php echo $produit["resume"] ?></div>
+          
+</div>
+</div>
+<?php
+$i++;} 
+?>
+        
+        </div>
+    </div>
+</main>
+<?php
+include 'footer.php';
+?>
+</body>
+</html>
+
+<!--<div class="item-1">
           <a href="page_jeux_description_enfant.php">
               <img src="img/switch3.jfif" alt="super_mario_3d">    </a>
               <div class="description">
@@ -109,12 +155,4 @@ include 'header.php'
               <div class="pegi"><img src="img/pegi7.png"></div>
                 <div class="text">Le frère de Mario devra encore une fois faire face à ses plus grandes peurs pour secourir ses amis, toujours à l’intérieur d’un hôtel des plus effrayants.</div>
                 
-          </div>
-        </div>
-    </div>
-</main>
-<?php
-include 'footer.php';
-?>
-</body>
-</html>
+          </div>-->

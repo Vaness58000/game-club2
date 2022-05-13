@@ -21,7 +21,7 @@ include 'header.php'
                 
                 /*Sélectionne les valeurs dans les colonnes nom, descriptif et images de la table
                  *users pour chaque entrée de la table*/
-                $requete = $connexion->prepare("SELECT image, resume, image_pegi, nom FROM produits WHERE console='switch' ORDER BY id DESC LIMIT 9 ");
+                $requete = $connexion->prepare("SELECT id, image, resume, image_pegi, nom FROM produits WHERE console='switch' ORDER BY id DESC LIMIT 9 ");
                 $requete->execute();
                 
                 /*Retourne un tableau associatif pour chaque entrée de notre table
@@ -42,7 +42,7 @@ include 'header.php'
         $i=1; 
 foreach ($produits as $produit) {?>
   <div class="item-<?php echo $i; ?>">
-  <a href="#">
+  <a href="page_jeux_description.php?page=<?php echo $produit["id"]; ?>">
       <img src="./img/<?php echo $produit["image"] ?>" alt="<?php echo $produit["nom"] ?>"></a>
       <div class="description">
                 <div class="pegi"><img src="./img/<?php echo $produit["image_pegi"] ?>"></div>
@@ -52,9 +52,18 @@ foreach ($produits as $produit) {?>
   </div>
 <?php
 $i++;} 
+?>        
+        </div>
+    </div>
+  </main>
+<?php
+include 'footer.php'
 ?>
+ 
+</body>
+</html>
 
-           <!-- <div class="item-1">
+<!-- <div class="item-1">
               <a href="#">
                   <img src="img/switch1.jpg" alt="pokemon_legend"></a>
             </div>
@@ -102,12 +111,3 @@ $i++;}
                   <img src="img/switch9.jpg" alt="splatoon">          
                 </a>
             </div>-->
-        </div>
-    </div>
-  </main>
-<?php
-include 'footer.php'
-?>
- 
-</body>
-</html>
