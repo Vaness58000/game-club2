@@ -4,7 +4,6 @@
     $user = "root";
     $pass = "Gladiator/89";
     $name_image = "";
-    echo "au revoir <br>";
     if(isset($_FILES['produits'])){
       $tmpName = $_FILES['produits']['tmp_name'];
       $name = $_FILES['produits']['name'];
@@ -16,7 +15,7 @@
   
       $extensions = ['jpg', 'png', 'jpeg', 'gif', 'jfif'];
       $maxSize = 400000;
-        echo "coucou <br>";
+
       if(in_array($extension, $extensions) && $size <= $maxSize && $error == 0){
   
           $uniqueName = uniqid('', true);
@@ -35,7 +34,7 @@
           echo "Une erreur est survenue";
       }
   }
-
+  if(isset($_POST['categorie'])){
     try{
 
         //On se connecte à la BDD
@@ -74,11 +73,12 @@
         
     }
         //On renvoie l'utilisateur vers la page de remerciement
-        //header("Location:form-merci.html");
+        header("Location:./envoi_donnees.php");
     }
     catch(PDOException $e){
         echo 'Impossible de traiter les données. Erreur : '.$e->getMessage();
     }
+  }
 ?>
 
 <!DOCTYPE html>
