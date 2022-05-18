@@ -23,7 +23,7 @@ html, body {
   }
   .switch span{
     display: block;
-    margin: 70px 0 -10px 0;
+    margin: 40px 0 -10px 0;
     font-size: clamp(12px, 3rem, 70px);
     line-height: 80px;
     color: #85be59;
@@ -51,6 +51,8 @@ img{
   .item-2, .item-3, .item-4, .item-5, .item-7, .item-8{
     grid-column: span 6;
   }
+  
+
 
 @media screen and (min-width:1024px) {   
     img{
@@ -313,7 +315,97 @@ img{
         transform: translateY(250px);
         -webkit-transform: translateY(250px);
       }
-       
+
+      .animate-charcter
+      {
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 4vw;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+    
+.box {
+  width: 600px;
+  margin: 4rem auto;
+  padding-top: 5rem;
+  background: rgba(255,255,255,0.3);
+  padding: 2.5rem;
+  border: 2px solid #ddd;
+  border-radius: 20px/50px;
+}
+.button {
+  font-size: 1.3rem;
+  padding: 1rem;
+  color: #fff;
+  border: 2px solid #1d2d2d;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  background: rgba(26, 25, 25, 0.71);
+  transition: all 0.1s ease-out;
+}
+.button:hover {
+  background: #f358eb;
+  color: #333;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.7);
+  transition: opacity .4s;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 4.5rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 5px;
+  width: 45%;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+.popup .cross {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+  color: #333;
+}
+.popup .cross:hover {
+  color: #12FCF8;
+}
+
     @media screen and (max-width: 768px){
         .texte{
           display: none;
@@ -324,6 +416,36 @@ img{
         .pegi{
           display:none;
         }
+
+        .popup {
+          margin: 6rem auto;
+          padding: 2rem;
+          background: #fff;
+          border-radius: 5px;
+          width: 45%;
+          position: relative;
+          transition: all 0.4s ease-in-out;
+        }
+
+        .box {
+          width: 600px;
+          margin:6rem auto;
+          padding-top: 5rem;
+          background: rgba(255,255,255,0.3);
+          padding: 2.5rem;
+          border: 2px solid #ddd;
+          border-radius: 20px/50px;
+        }
+        .switch span{
+          display: block;
+          margin: -50px 0 30px 0;
+          font-size: clamp(12px, 3rem, 70px);
+          line-height: 80px;
+          color: #85be59;
+          text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+          letter-spacing: -4px;
+  
+      }
       }
       
 

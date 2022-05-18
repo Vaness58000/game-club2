@@ -39,7 +39,17 @@ include 'header.php'
             }      
 ?>
 <body>
-  
+<div class="box">
+    <a href="#popup" class="button">Bienvenue petit(e) padawan.</a>
+  </div>
+
+  <div id="popup" class="overlay">
+    <div class="popup">
+      <h2>Conditions générales</h2>
+      <a href="#" class="cross">&times;</a>
+      <p>Merci de rester respectueux envers les administrateurs de ce site qui sont tout novice pour l'INSTANT</p>
+    </div>
+  </div>
 <main>
   <div id='center' class="main center">
     <div class="mainInner">
@@ -61,6 +71,8 @@ foreach ($produits as $produit) {?>
 <?php
 $i++;} 
 ?>
+
+
 
 <!--<div class="item-1">
           <a href="page_jeux_description_enfant.php">
@@ -155,9 +167,16 @@ $i++;}
             </div>
           </div>-->
     </div>
-    <div class="mainInner">
-      <div>DES JEUX POUR TOUTE LA FAMILLE </div>
+    <div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h3 class="animate-charcter"> DES JEUX POUR TOUTE LA FAMILLE</h3>
     </div>
+  </div>
+</div>
+    <!--<div class="mainInner">
+      <div>DES JEUX POUR TOUTE LA FAMILLE </div>
+    </div>-->
   </div>
 </main>
   <?php
