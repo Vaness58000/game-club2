@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿<?php
+// Initialiser la session
+session_start();
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" href="style.css" />

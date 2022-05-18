@@ -1,10 +1,11 @@
+
 <footer>
   <div class="grid_footer">
-      <form id="form1" action="#"method="#">
+      <form id="form1" action ="verif-form.php" method ="get">
         <div id="recherches">
-         <label for="choix">GAMES</label>
-         <input type="text" id="choix" name="choix" placeholder="entrez votre jeu" required>
-         <input type="submit" value="Rechercher">
+         <label for="terme">GAMES</label>
+         <input type="search" id="terme" name="terme" placeholder="entrez votre jeu" required>
+         <input type="submit" name = "s" value="Rechercher">
         </div>
       </form>
     <div id="pratique">

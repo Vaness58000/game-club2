@@ -1,1 +1,0 @@
-SELECT image, age FROM pegi INNER JOIN categories on pegi.id_categories=categories.id_categories WHERE categorie="adultes";

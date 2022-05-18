@@ -1,3 +1,8 @@
+<?php
+// Initialiser la session
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,7 +12,7 @@
     <link rel="stylesheet" href="style_page_jeux_description.css">
     <link rel="stylesheet" href="header_footer.css">
     <script src="https://kit.fontawesome.com/6baf9741f4.js"></script>
-    <title>Super Mario 3D World switch</title>
+    <title>page jeux description</title>
 </head>
 <?php
 include 'header.php'
@@ -21,7 +26,7 @@ include 'header.php'
                 
                 /*Sélectionne les valeurs dans les colonnes nom, descriptif et images de la table
                  *users pour chaque entrée de la table*/
-                $requete = $connexion->prepare("SELECT id, console, id_categories, nom, description, image_pegi, image FROM produits WHERE id=:id");
+                $requete = $connexion->prepare("SELECT id, console, id_categories, nom, description, image_pegi, image, video FROM produits WHERE id=:id");
                 $requete->execute([
                ":id"=> $_GET['page'],
                 ]);
@@ -40,7 +45,7 @@ include 'header.php'
     ?>
 <body>
     <main>
-    <div class="categorie_page_jeu_enfant"><span><?php echo $produit["console"] ?> </span> - <span><?php echo $produit["id_categories"] ?></span></div>
+    <div class="categorie_page_jeu_enfant"><span><?php echo $produit["console"] ?></div>
     <div class=effet_3d_enfant><h1><?php echo $produit["nom"] ?></h1></div>
     <div class="grid_jeu_ind">
 
@@ -60,7 +65,7 @@ include 'header.php'
             <img src="./img/<?php echo $produit["image_pegi"] ?>">
         </div>
     <div class="video">
-            <button class="bouton_video"><a href="https://www.youtube.com/watch?v=RVNEVYjScEU" target="_blank">Voir teaser</a></button>
+            <button class="bouton_video"><a href="<?php echo $produit["video"] ?>" target="_blank">Voir teaser</a></button>
         </div>
         </div>
 </main>

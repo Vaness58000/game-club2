@@ -1,3 +1,8 @@
+<?php
+// Initialiser la session
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,7 +12,7 @@
     <link rel="stylesheet" href="style_page_console.css">
     <link rel="stylesheet" href="header_footer.css">
     <script src="https://kit.fontawesome.com/6baf9741f4.js"></script>
-    <title>Adulte</title>
+    <title>ADULTES</title>
 </head>
 <?php
 include 'header.php'

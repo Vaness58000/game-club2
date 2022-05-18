@@ -47,8 +47,8 @@
             $pegi_categorie=$sth->fetch();
         //On insère les données reçues
         $sth = $dbco->prepare("
-            INSERT INTO produits(nom,resume,description,id_categories,image,image_pegi,console)
-            VALUES(:nom,:resume,:description,:id_categories,:image,:image_pegi,:console)");
+            INSERT INTO produits(nom,resume,description,id_categories,image,image_pegi,console,video)
+            VALUES(:nom,:resume,:description,:id_categories,:image,:image_pegi,:console,:video)");
         $sth->bindParam(':nom',$_POST['nom']);
         $sth->bindParam(':resume',$_POST['resume']);
         $sth->bindParam(':description',$_POST['description']);
@@ -56,6 +56,7 @@
         $sth->bindParam(':image', $name_image);
         $sth->bindParam(':image_pegi',$pegi_categorie['image']);
         $sth->bindParam(':console',$_POST['console']);
+        $sth->bindParam(':video',$_POST['video']);
         $sth->execute();
 
         function valid_donnees($donnees){
@@ -70,6 +71,7 @@
         $image = valid_donnees($_POST["image"]);
         $image_pegi = valid_donnees($_POST["image_pegi"]);
         $console = valid_donnees($_POST["console"]);
+        $video = valid_donnees($_POST["video"]);
         
     }
         //On renvoie l'utilisateur vers la page de remerciement
@@ -138,7 +140,12 @@
               <div class="mt-1">
                 <textarea id="console" name="console" rows="3" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder="xbox, playstation, switch, pc"></textarea>
               </div>
-    
+            </div>
+            <div>
+              <label for="video" class="block text-sm font-medium text-gray-700"> Lien de la video </label>
+              <div class="mt-1">
+                <textarea id="video" name="video" rows="3" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md" placeholder=" https://www.xbox.com/fr-FR/games/store/minecraft-dungeons-luminous-night-adventure-pass/9P226GDNFGGB"></textarea>
+              </div>
             </div>
 
             <div class="mt-5 md:mt-0 md:col-span-2">

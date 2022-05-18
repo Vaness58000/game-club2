@@ -1,4 +1,7 @@
-
+<?php
+// Initialiser la session
+session_start();
+?>
 
 <?php 
 /*if(!empty($_FILES) && array_key_exists('file', $_FILES) && !empty($_FILES['file']['name'])) {

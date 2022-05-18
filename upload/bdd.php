@@ -1,4 +1,9 @@
 <?php
+// Initialiser la session
+session_start();
+?>
+
+<?php
 
 try{
     $db = new PDO('mysql:host=localhost;dbname=game_club', 'root', "Gladiator/89");

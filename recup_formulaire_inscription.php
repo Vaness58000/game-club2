@@ -1,3 +1,7 @@
+<?php
+// Initialiser la session
+session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -45,7 +49,7 @@
               echo "Erreur : " . $e->getMessage();
             }
             //on ferme la connexion
-            $connexion = null;
+           $connexion = null;
         ?>
     </body>
 </html>

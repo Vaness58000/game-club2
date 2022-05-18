@@ -1,5 +1,9 @@
 
         <?php
+// Initialiser la session
+session_start();
+?>
+        <?php
             $servername = 'localhost';
             $username = 'root';
             $password = 'Gladiator/89';
