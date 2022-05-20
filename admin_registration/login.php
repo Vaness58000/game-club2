@@ -21,7 +21,7 @@ if (isset($_POST['pseudo'])){
 		$utilisateur = mysqli_fetch_assoc($result);
 		// vérifier si l'utilisateur est un administrateur ou un utilisateur
 		if ($utilisateur['type'] == 'admin') {
-			header('location: admin/envoi_donnees.php');		  
+			header('location: admin/home.php');		  
 		}else{
 			header('location: ../test_connexion2.php');
 		}

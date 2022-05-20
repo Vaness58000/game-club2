@@ -16,9 +16,9 @@
 		<div class="sucess">
 		<h1>Bienvenue <?php echo $_SESSION['pseudo']; ?>!</h1>
 		<p>C'est votre espace admin.</p>
-		<a href="add_user.php">Add user</a> | 
-		<a href="#">Update user</a> | 
-		<a href="#">Delete user</a> | 
+		<a href="add_user.php">Ajout utilisateur</a> | 
+		<a href="lister.php">Modifier ou supprimer produits</a> | 
+		<a href="envoi_donnees.php">Ajout produits</a> | 
 		<a href="../logout.php">Déconnexion</a>
 		</ul>
 		</div>

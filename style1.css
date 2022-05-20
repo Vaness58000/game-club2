@@ -345,7 +345,7 @@ img{
 }
     
 .box {
-  width: 600px;
+  width: 100vh;
   margin: 4rem auto;
   padding-top: 5rem;
   background: rgba(255,255,255,0.3);
