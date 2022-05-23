@@ -1,8 +1,7 @@
 <?php
-	session_start();
 	require_once 'connexion_bdd.php';
 	
-	if(ISSET($_POST['connecter'])){
+	if(isset($_POST['connecter'])){
 		if($_POST['email'] != "" || $_POST['mdp'] != ""){
 			$email = $_POST['email'];
 			$mdp = $_POST['mdp'];

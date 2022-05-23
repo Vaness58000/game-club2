@@ -2,8 +2,11 @@
 
 //ouverture de la base de données
 $objectPdo = new PDO ('mysql:host=localhost;dbname=game_club;charset=utf8','root','Gladiator/89');
-
-$pdoStat = $objectPdo->prepare(' UPDATE produits SET nom=:nom, resume=:resume, description=:description, console=:console, video=:video, id_categories=:id_categories WHERE id =:num');
+$pdoStat1 = $objectPdo->prepare('SELECT*FROM pegi  WHERE age=:age');
+$executeIsOk2 = $pdoStat1->execute([':age'=>$_POST['categorie']]);
+//var_dump ($executeIsOk2);
+$pegi = $pdoStat1->fetch();
+$pdoStat = $objectPdo->prepare(' UPDATE produits SET nom=:nom, resume=:resume, description=:description, console=:console, video=:video, id_categories=:id_categories,image_pegi=:image_pegi WHERE id =:num');
 
 //liaison du parametre nommé
 
@@ -13,12 +16,13 @@ $pdoStat->bindValue(':resume', $_POST['resume']);
 $pdoStat->bindValue(':description', $_POST['description']);
 $pdoStat->bindValue(':console', $_POST['console']);
 $pdoStat->bindValue(':video', $_POST['video']);
-$pdoStat->bindValue(':id_categories', $_POST['categorie']);
+$pdoStat->bindValue(':id_categories', $pegi['id_categories']);
+$pdoStat->bindValue(':image_pegi', $pegi['Image']);
 
 
 //execution de la requete
 $executeIsOk = $pdoStat->execute();
-var_dump ($_POST);
+//var_dump ($_POST);
 $name_image = "";
     if(!empty($_FILES['produits']['name'])){
       $tmpName = $_FILES['produits']['tmp_name'];

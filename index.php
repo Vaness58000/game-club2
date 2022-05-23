@@ -40,7 +40,7 @@ include 'header.php'
 ?>
 <body>
 <div class="box">
-    <a href="#popup" class="button">Bienvenue petit(e) padawan.</a>
+    <a href="#popup" class="button">Bienvenue sur GAME CLUB.</a>
   </div>
 
   <div id="popup" class="overlay">

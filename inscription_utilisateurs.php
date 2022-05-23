@@ -9,7 +9,7 @@
 				$pseudo = $_POST['pseudo'];
 				$email = $_POST['email'];
 				$mdp = $_POST['mdp'];
-				$requete = "INSERT INTO utilisateurs (pseudo, email, mdp) VALUES ('$pseudo', '$email', '".hash('sha256', $mdp)."')";
+				$requete = "INSERT INTO utilisateurs (pseudo, email,type, mdp) VALUES ('$pseudo', '$email','user', '".hash('sha256', $mdp)."')";
 				$connexion->exec($requete);
 			}catch(PDOException $e){
 				echo $e->getMessage();
