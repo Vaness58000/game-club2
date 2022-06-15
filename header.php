@@ -12,7 +12,7 @@
     <nav>
     <ul class="sidebarMenuInner">
       <li><span>CATEGORIES</span></li>
-      <li><a href="page_xbox.php" target="_blank">XBOX ONE|XBOX SERIES S|X</a></li>
+      <li><a href="page_xbox.php" target="_blank">XBOXx ONE|XBOX SERIES S|X</a></li>
       <li><a href="page_playstation.php" target="_blank">PLAYSTATION 4|5</a></li>
       <li><a href="page_switch.php" target="_blank">SWITCH</a></li>
       <li><a href="page_pc.php" target="_blank">PC</a></li>
