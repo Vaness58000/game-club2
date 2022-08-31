@@ -6,7 +6,7 @@ session_start();
 <?php
 try
 {
- $bdd = new PDO("mysql:host=localhost;dbname=game_club", "root", "Gladiator/89");
+ $bdd = new PDO("mysql:host=localhost;dbname=game_club", "root", "root");
  $bdd ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch(Exception $e)

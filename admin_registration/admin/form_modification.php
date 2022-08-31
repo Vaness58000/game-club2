@@ -1,7 +1,7 @@
 <?php
 
 //ouverture de la base de données
-$objectPdo = new PDO ('mysql:host=localhost;dbname=game_club;charset=utf8','root','Gladiator/89');
+$objectPdo = new PDO ('mysql:host=localhost;dbname=game_club;charset=utf8','root','root');
 
 $pdoStat = $objectPdo->prepare(' SELECT *, produits.image as modif_image FROM produits LEFT JOIN categories ON categories.id_categories=produits.id_categories LEFT JOIN pegi ON produits.image_pegi=pegi.Image  WHERE produits.id =:num');
 

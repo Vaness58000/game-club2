@@ -1,7 +1,7 @@
 <?php
 
 //ouverture de la base de données
-$objectPdo = new PDO ('mysql:host=localhost;dbname=game_club;charset=utf8','root','Gladiator/89');
+$objectPdo = new PDO ('mysql:host=localhost;dbname=game_club;charset=utf8','root','root');
 
 //préparation de la requête 
 $pdoStat = $objectPdo->prepare('DELETE FROM produits WHERE id=:num LIMIT 1');

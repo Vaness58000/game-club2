@@ -15,7 +15,7 @@ session_start();
             $servername = 'localhost';
             $username = 'root';
             $dbname= 'game_club';
-            $password = 'Gladiator/89';
+            $password = 'root';
 
             try{
                 $connexion = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);

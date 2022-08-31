@@ -2,7 +2,7 @@
     $serveur = "localhost";
     $dbname = "game_club";
     $user = "root";
-    $pass = "Gladiator/89";
+    $pass = "root";
     $name_image = "";
     if(isset($_FILES['produits'])){
       $tmpName = $_FILES['produits']['tmp_name'];

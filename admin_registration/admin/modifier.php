@@ -1,7 +1,7 @@
 <?php
 
 //ouverture de la base de données
-$objectPdo = new PDO ('mysql:host=localhost;dbname=game_club;charset=utf8','root','Gladiator/89');
+$objectPdo = new PDO ('mysql:host=localhost;dbname=game_club;charset=utf8','root','root');
 $pdoStat1 = $objectPdo->prepare('SELECT*FROM pegi  WHERE age=:age');
 $executeIsOk2 = $pdoStat1->execute([':age'=>$_POST['categorie']]);
 //var_dump ($executeIsOk2);

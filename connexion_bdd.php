@@ -5,7 +5,7 @@
         <?php
             $servername = 'localhost';
             $username = 'root';
-            $password = 'Gladiator/89';
+            $password = 'root';
             //On essaie de se connecter
             
             try{

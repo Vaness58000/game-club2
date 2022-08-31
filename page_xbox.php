@@ -18,7 +18,7 @@ session_start();
 include 'header.php'
 ?>
 <?php
-            $servname = "localhost"; $dbname = "game_club"; $user = "root"; $pass = "Gladiator/89";
+            $servname = "localhost"; $dbname = "game_club"; $user = "root"; $pass = "root";
             
             try{
                 $connexion = new PDO("mysql:host=$servname;dbname=$dbname;charset=utf8", $user, $pass);

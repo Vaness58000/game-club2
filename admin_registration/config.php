@@ -2,7 +2,7 @@
 // Informations d'identification
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'Gladiator/89');
+define('DB_PASSWORD', 'root');
 define('DB_NAME', 'game_club');
  
 // Connexion � la base de donn�es MySQL 
